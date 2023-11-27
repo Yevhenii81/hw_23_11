@@ -55,7 +55,7 @@ void searchByGenre(Film films[], int size, const string& genre)
 
 int main()
 {
-    setlocale(0, "");
+    //setlocale(0, "");
     const int SIZE = 3;
     Film films[SIZE] = {
         {"Остров проклятых", "Мартин Скорсезе", "Драма, Триллер, Мистика", 9},
